@@ -1,0 +1,243 @@
+13/11/2013: Planning Meeting: 60 minutes (held at usual tutorial time, without tutorial.)
+
+Internal Deadline set: Friday, November 22nd, 11:59:59 PM
+
+Duties:
+
+Mohammad:
+	- Prescription.java
+	- Physician.java
+	- LogInActivity.java
+	- HomeActivity.java
+
+Sam:
+	- UserManager.java (perviously known as NurseManager.java)
+	- Patient.java
+
+Rashid:
+	- Record.java
+	- MedicalRecord.java
+	- Nurse.java
+	- User.java
+Ian:
+	- Create UML --> Deadline: Friday at midnight (nov. 15)
+	- Update and continue Activities beyond HomeActivity.java, namely AddPerscriptionActivity.java (a definite new addition)
+	- Add getPriorityQueue method to PatientManager.java
+	- Add getUrgency method in VitalSigns.java
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+20/11/2013: Status Meeting: 15 minutes (held online.)
+
+Duties Update:
+
+Mohammad:
+	- Prescription.java : Draft COMPLETE
+	- Physician.java : Draft NEARING COMPLETION
+	- LogInActivity.java : Draft NEARING COMPLETION
+	- HomeActivity.java : Draft NEARING COMPLETION
+
+Sam:
+	- UserManager.java : Draft NEARING COMPLETION
+	- Patient.java : Draft COMPLETE
+
+Rashid:
+	- Record.java : Draft COMPLETE
+	- MedicalRecord.java : Draft COMPLETE
+	- Nurse.java : Draft COMPLETE
+	- User.java : Draft COMPLETE
+Ian:
+	- Create UML --> Deadline: Friday at midnight (nov. 15) : COMPLETE
+	- New Activity Responsibilities:PatientActivity.java
+				- AddPrescriptionActivity.java : Draft COMPLETE
+				- ShowPrescriptionsActivity.java : Draft NEARING COMPLETION
+				- ShowPatientRecordsActivity.java : Draft NEARING COMPLETION
+				- ListPatientsActivity.java : Draft COMPLETE
+				- PatientActivity.java : Draft COMPLETE
+	- Add getPriorityQueue method to PatientManager.java : Draft NEARING COMPLETION
+	- Add getUrgency method in VitalSigns.java : Draft NEARING COMPLETION
+	
+Overall: 14/18	Responsibilities Completed ------ Deadline for 100% completion of the draft phase of Phase III: Friday November 22nd at Midnight.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+20/11/2013: Status Meeting: 50-60 minutes (in tutorial)
+
+Planning Duties:
+	Rasihd: 
+		- Next steps:
+			- As Rashid has completed Draft 1, his responsibility is to proofread his written code.
+	Mohammad:
+		- Next steps:
+			- Complete HomeActivity.java, introducing the new boolean being passed through the intent. 
+			  HomeActivity.java is to be dynamic, using PatientActivity.java as an outline for Buttons to be added.
+			  The Nurse has more options in the HomeActivity.java, as the Physician is not permitted access to the
+			  Priority Queue list, nor allowed to add a new patient. The Priority Queue button now sends to ListPatientsActivity.java,
+			  whereas before it was creating PriorityQueueOfPatientsActivity.java
+			- Complete LogInActivity.java with functionallity to support both Nurses and Physicians.
+	Sam:
+		- Next steps:
+			- As Sam has completed Patient.java, he will proofread Patient.java.
+			- Complete UserManager.java, with the added method of getUser(), that returns a User (not outlined in UML).
+			- Edit UserManager to delete all unnecessary methods.
+	Ian:
+		- Next steps:
+			- PriotityQueueOfPatients.java IS BEING SCRAPPED. Functionality added to ListPatientsActivity.java
+			- Complete PatientManager.java priority queue
+			- Complete VitalSigns.java getUrgency
+			- Complete dimens.xml to support dimensions outlined in PatientActivity.java
+			- Add strings specified in PatientActivity.java to strings.xml
+			- Complete all aforementioned incompleted Activities, as noted by the previous status meeting.
+			- Add the new functionality chart to meetings.txt
+	Group:
+		- Next Steps:
+			- All drafts are to be completed by Friday at midnight.
+			- App to be fully functional by Monday morning (the 25th)
+			- CRC cards to be completed by Tuesday Night.
+			- Entire project to be proof read an finished by the End of Project status meeting. 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+23/11/2013: Status Meeting: 25-30 minutes (held online.)
+
+Duties Update:
+
+Mohammad:
+	- Prescription.java : Draft COMPLETE
+	- Physician.java : Draft INCOMPLETE
+	- LogInActivity.java : Draft COMPLETE
+	- HomeActivity.java : Draft COMPLETE
+
+Sam:
+	- UserManager.java : Draft COMPLETE
+	- Patient.java : Draft COMPLETE
+
+Rashid:
+	- Record.java : Draft COMPLETE
+	- MedicalRecord.java : Draft COMPLETE
+	- Nurse.java : Draft COMPLETE
+	- User.java : Draft COMPLETE
+Ian:
+	- New Activity Responsibilities:
+				- AddPrescriptionActivity.java : Draft COMPLETE
+				- ShowPrescriptionsActivity.java : Draft COMPLETE
+				- ShowPatientRecordsActivity.java : Draft COMPLETE
+				- ListPatientsActivity.java : Draft COMPLETE
+				- PatientActivity.java : Draft COMPLETE
+	- Add getPriorityQueue method to PatientManager.java : Draft COMPLETE
+	- Add getUrgency method in VitalSigns.java : Draft COMPLETE
+
+Planning aspect of the meeting:
+As the internal deadline has been met, all incomplete functions of the project are runoff to be completed by Ian. The deadline for a working copy of the project is Monday Morning/ Sunday Night. 
+
+New Responsibilities are as follows:
+
+Mohammad:
+	- Proof read/ try to break app
+
+Sam:
+	- Proof read/ try to break app
+
+Rashid:
+	- Proof read/ try to break app
+Ian:
+	- Proof read/ try to break app
+	- Complete all incomplete methods/classes
+	- Put the pieces of the puzzle of the app together to have a fully functional app by Sunday Night/ Monday morning
+	- By Sunday night, upload a text table of how functional the app is, by phaseIII.pdf's standards
+
+Updated Functionality Table
++--------------------------------------------------------------------------------+----------+
+| Function                                                                       | Working? |
++--------------------------------------------------------------------------------+----------+
+| Physicians can launch the triage application and log in.                       | No       |
++--------------------------------------------------------------------------------+----------+
+| Physicians can save all collected data.                                        | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Using the health card number, physicians can look up a patient's record        | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Physicians can record prescription information.                                | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Nurses can launch the triage app23/11/2013: Status Meeting: 25-30 minutes (held online.)lication and log in.                           | No       |
+|                                                                                |          |
++--------------------------------------------------------------------------------+----------+
+| Nurses can save all collected data.                                            | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Nurses can record individual patient data.                                     | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Nurses can record and update a patient's vital signs.                          | Yes      |
+|                                                                                |          |
++--------------------------------------------------------------------------------+----------+
+|  Nurses can record the date and time when a patient has been seen by a doctor. | Yes      |
+|                                                                                |          |
++--------------------------------------------------------------------------------+----------+
+|  Nurses can access a list of patients ordered by urgency.                      | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Nurses can look up record with HCN.                                            | Yes      |
++--------------------------------------------------------------------------------+----------+
+-----------------------------------------------------------------------------------------------------------------------------
+23/11/2013: Status Meeting: 15 minutes
+
+Current state of the functionality:
++--------------------------------------------------------------------------------+----------+
+| Function                                                                       | Working? |
++--------------------------------------------------------------------------------+----------+
+| Physicians can launch the triage application and log in.                       | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Physicians can save all collected data.                                        | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Using the health card number, physicians can look up a patient's record        | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Physicians can record prescription information.                                | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Nurses can launch the triage application and log in.                           | Yes      |
+|                                                                                |          |
++--------------------------------------------------------------------------------+----------+
+| Nurses can save all collected data.                                            | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Nurses can record individual patient data.                                     | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Nurses can record and update a patient's vital signs.                          | Yes      |
+|                                                                                |          |
++--------------------------------------------------------------------------------+----------+
+|  Nurses can record the date and time when a patient has been seen by a doctor. | Yes      |
+|                                                                                |          |
++--------------------------------------------------------------------------------+----------+
+|  Nurses can access a list of patients ordered by urgency.                      | Yes      |
++--------------------------------------------------------------------------------+----------+
+| Nurses can look up record with HCN.                                            | Yes      |
++--------------------------------------------------------------------------------+----------+
+
+Mohammad:
+	- Proof read/ try to break app.
+
+Sam:
+	- Proof read/ try to break app.
+
+Rashid:
+	- Proof read/ try to break app.
+Ian:
+	- Proof read/ try to break app.
+	- Complete all unfinished Javadocs.
+	- Complete all unfinished comments.
+	- Ask online about the formatting for braces in Java.
+	- Clean up all code.
+	- Complete check list against PII marking.
+-----------------------------------------------------------------------------------------------------------------------------
+27/11/2013: Status Meeting: 60 minutes held in Tutorial
+
+=======================================================================
+Application has been Demonstrated, and runs without flaw at this point. (Hooray.)
+=======================================================================
+Mohammad:
+	- Proof read/ try to break app.
+
+Sam:
+	- Proof read/ try to break app.
+
+Rashid:
+	- Proof read/ try to break app.
+Ian:
+	- Proof read/ try to break app.
+	- Complete all unfinished Javadocs.
+	- Complete all unfinished comments.
+	- Complete crc_phaseIII.pdf
+	- Complete README.txt
+	- Clean up all code.
+	- Complete check list against PII marking.
+	- Complete check list for check list given on Piazza.
+
