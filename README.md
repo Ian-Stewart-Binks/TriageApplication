@@ -14,6 +14,7 @@ Instructions for use:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 NURSE PATH:
+
 4. Once in the app "Log in" screen, type "nurseAdmin" for the username, and "password" for the password.
 
 5. You're on the home page! You have five options, Add a new patient, list all current patients, list patients not seen by the doctor in decreasing order of urgency, look up a patients record by health card number, or save all data. Let's go with sign in a new patient, first.
