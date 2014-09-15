@@ -1,6 +1,7 @@
 TriageApplication
 =================
-*Note: This was the README file for the project, given to the TA.*
+*Note: This was the README file for the project that was given to the grader.*
+
 Welcome to the TriageApplication, version 2.0! This is an application built for all of your required ER needs.
 
 Instructions for use:
